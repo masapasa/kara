@@ -1,0 +1,16 @@
+canvas {
+	border: solid black 2px;
+	touch-action: none;
+}
+
+.canvas-div {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+}
+
+#canvasOptions {
+	padding: 50px;
+	margin: 0 20px;
+}
+
