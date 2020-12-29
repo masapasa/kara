@@ -1,0 +1,9 @@
+#perms-container {
+	height: 360px;
+}
+
+@media screen and (max-width: 600px) {
+	#perms-container {
+		height: auto;
+	}
+}

@@ -1,0 +1,48 @@
+{
+	"name": "elchologamer.github.io",
+	"version": "1.0.0",
+	"homepage": "https://elchologamer.github.io/",
+	"repository": "https://github.com/ElCholoGamer/elchologamer.github.io.git",
+	"author": "ElCholoGamer <josedanielgrayson@gmail.com>",
+	"license": "MIT",
+	"scripts": {
+		"build": "webpack --config ./webpack/webpack.prod.js",
+		"start": "webpack serve --config ./webpack/webpack.dev.js"
+	},
+	"dependencies": {
+		"axios": "^0.21.1",
+		"bootstrap": "^4.5.3",
+		"react": "^17.0.1",
+		"react-bootstrap": "^1.4.0",
+		"react-dom": "^17.0.1",
+		"react-router-dom": "^5.2.0"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.12.10",
+		"@babel/plugin-transform-runtime": "^7.12.10",
+		"@babel/preset-env": "^7.12.10",
+		"@babel/preset-react": "^7.12.10",
+		"@babel/preset-typescript": "^7.12.7",
+		"@types/copy-webpack-plugin": "^6.3.0",
+		"@types/mini-css-extract-plugin": "^1.2.2",
+		"@types/react": "^17.0.0",
+		"@types/react-dom": "^17.0.0",
+		"@types/react-router-dom": "^5.1.6",
+		"@types/webpack-dev-server": "^3.11.1",
+		"babel-loader": "^8.2.2",
+		"clean-webpack-plugin": "^3.0.0",
+		"copy-webpack-plugin": "^7.0.0",
+		"css-loader": "^5.0.1",
+		"fork-ts-checker-webpack-plugin": "^6.0.8",
+		"html-webpack-plugin": "^4.5.0",
+		"mini-css-extract-plugin": "^1.3.3",
+		"ts-loader": "^8.0.12",
+		"ts-node": "^9.1.1",
+		"typescript": "^4.1.3",
+		"webpack-cli": "^4.3.0",
+		"webpack": "^5.11.1",
+		"webpack-dev-server": "^3.11.0",
+		"webpack-merge": "^5.7.3",
+		"workbox-webpack-plugin": "^6.0.2"
+	}
+}
