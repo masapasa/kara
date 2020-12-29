@@ -1,9 +1,9 @@
 {
-	"name": "elchologamer.github.io",
+	"name": "kara",
 	"version": "1.0.0",
-	"homepage": "https://elchologamer.github.io/",
-	"repository": "https://github.com/ElCholoGamer/elchologamer.github.io.git",
-	"author": "ElCholoGamer <josedanielgrayson@gmail.com>",
+	"homepage": "https://kata.github.io/",
+	"repository": "https://github.com/masapasa/kara",
+	"author": "Nubri <info@nubri.co>",
 	"license": "MIT",
 	"scripts": {
 		"build": "webpack --config ./webpack/webpack.prod.js",
